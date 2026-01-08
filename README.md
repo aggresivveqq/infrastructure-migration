@@ -12,15 +12,7 @@ The content is curated as part of a professional DevOps / SRE portfolio.
 
 ## What You Will Find Here
 
-This repository documents **infrastructure-level migrations** across common platform components, including:
-
-- Messaging systems
-- Databases
-- Search and analytics platforms
-- Supporting infrastructure services
-
-Each scenario is written as a **production runbook**, not a tutorial.
-
+This repository documents **infrastructure-level migrations** across common platform components and what i did!
 ---
 ## Repository Structure
 
