@@ -26,7 +26,7 @@ including a version upgrade as part of the migration process.
 
 ## Source System
 
-- **Cluster topology:** 2-node RabbitMQ cluster  
+- **Cluster topology:** 2-node RabbitMQ cluster(planned)
 - **Nodes:**
   - `rabbitmq-server-1` (primary node)
   - `rabbitmq-server-2` (secondary node)
