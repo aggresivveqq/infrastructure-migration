@@ -1,69 +1,81 @@
 # infrastructure-migrations
 
-This repository documents real-world infrastructure migration scenarios
-performed in a large enterprise environment.
+This repository contains real-world infrastructure migration scenarios
+executed in large enterprise environments.
 
-All system names, values, and identifiers are fully anonymized.
-The content is intended for educational and professional portfolio purposes.
+The focus is on **how migrations are planned, executed, validated, and rolled back**
+under production constraints. All system names, values, and identifiers are fully anonymized.
+
+The content is curated as part of a professional DevOps / SRE portfolio.
 
 ---
 
-## Scope
+## What You Will Find Here
 
-The repository covers **infrastructure-level migrations**, including but not limited to:
+This repository documents **infrastructure-level migrations** across common platform components, including:
 
 - Messaging systems
 - Databases
 - Search and analytics platforms
-- Supporting infrastructure components
+- Supporting infrastructure services
 
-The focus is on **process, decision-making, risks, and validation**, not on vendor-specific secrets or internal implementations.
-
----
-
-Each migration scenario typically includes:
-- migration overview
-- architecture description
-- prerequisites
-- step-by-step procedure
-- validation checklist
-- rollback strategy
-- lessons learned
+Each scenario is written as a **production runbook**, not a tutorial.
 
 ---
 
-## What This Repository Is
+## How Migration Scenarios Are Structured
 
-- A collection of **production-grade migration runbooks**
-- A demonstration of **DevOps / SRE thinking**
-- A structured knowledge base for recurring infrastructure tasks
+Every migration scenario typically includes:
+
+- clear problem statement and migration goals  
+- high-level architecture before and after the change  
+- prerequisites and environmental assumptions  
+- step-by-step execution plan  
+- validation and acceptance checks  
+- rollback strategy and failure handling  
+- post-migration notes and lessons learned  
+
+This structure reflects how migrations are handled in real operational environments.
 
 ---
 
-## What This Repository Is NOT
+## What This Repository Represents
 
-- A dump of internal company documentation
-- A source of proprietary configurations
-- A data migration archive
-- A vendor endorsement
+- A collection of **production-oriented migration runbooks**
+- A demonstration of **DevOps / SRE operational thinking**
+- A reusable knowledge base for recurring infrastructure changes
+- A record of decision-making under real constraints
 
 ---
 
-## Design Principles
+## What This Repository Deliberately Avoids
 
-- **Safety first** — rollback and failure scenarios are explicitly documented
-- **Reproducibility** — steps are deterministic and verifiable
-- **Minimal assumptions** — environment-specific details are abstracted
-- **Operational clarity** — written as runbooks, not tutorials
+- Company-specific documentation or branding
+- Proprietary or sensitive configuration data
+- Environment-identifying details
+- Vendor marketing or endorsements
+
+---
+
+## Guiding Principles
+
+- **Operational safety first** — rollback paths are mandatory
+- **Clarity over cleverness** — predictable, explainable steps
+- **Reproducibility** — migrations should be repeatable and verifiable
+- **Realism** — assumptions match production conditions, not labs
 
 ---
 
 ## Intended Audience
 
+This repository is intended for:
+
 - DevOps Engineers
 - Site Reliability Engineers
 - Platform Engineers
 - Infrastructure Architects
+
+It may also be useful for engineers preparing or reviewing complex infrastructure changes.
 
 ---
 
