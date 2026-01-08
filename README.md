@@ -22,6 +22,13 @@ This repository documents **infrastructure-level migrations** across common plat
 Each scenario is written as a **production runbook**, not a tutorial.
 
 ---
+## Repository Structure
+
+The repository is organized by technology and migration approach.
+
+Directory names are **self-descriptive** and reflect the system being migrated
+and the method used. Each migration scenario is isolated in its own directory,
+allowing the repository to scale naturally as new cases are added.
 
 ## How Migration Scenarios Are Structured
 
