@@ -69,12 +69,10 @@ This structure reflects how migrations are handled in real operational environme
 ## Intended Audience
 
 This repository is intended for:
-
 - DevOps Engineers
 - Site Reliability Engineers
 - Platform Engineers
 - Infrastructure Architects
-
 It may also be useful for engineers preparing or reviewing complex infrastructure changes.
 
 ---
