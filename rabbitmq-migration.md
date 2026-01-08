@@ -43,6 +43,21 @@ including a version upgrade as part of the migration process.
 - **Erlang/OTP version:** 22.x
 - **Date of assessment:** 26.12.2025
 
+
+## Target System
+
+- **Cluster topology:** 2-node RabbitMQ cluster
+- **Nodes:**
+  - `rabbitmq-newserver-1`
+  - `rabbitmq-newserver-2`
+
+### Platform Details
+- **Operating system:** Ubuntu 24.04 LTS
+- **Filesystem:** EXT4
+
+The target environment was provisioned as a clean system,
+allowing proper cluster configuration and version alignment.
+
 ---
 
 ## Pre-Migration Assessment
@@ -77,19 +92,6 @@ The system integrated with an **external identity provider** for user authentica
 
 ---
 
-## Target System
-
-- **Cluster topology:** 2-node RabbitMQ cluster
-- **Nodes:**
-  - `rabbitmq-newserver-1`
-  - `rabbitmq-newserver-2`
-
-### Platform Details
-- **Operating system:** Ubuntu 24.04 LTS
-- **Filesystem:** EXT4
-
-The target environment was provisioned as a clean system,
-allowing proper cluster configuration and version alignment.
 
 
 
