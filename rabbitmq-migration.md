@@ -94,6 +94,3 @@ The system integrated with an **external identity provider** for user authentica
 
 
 
-
-....continue
-
