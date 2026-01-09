@@ -6,7 +6,7 @@ executed in large enterprise environments.
 The focus is on **how migrations are planned, executed, validated, and rolled back**
 under production constraints. All system names, values, and identifiers are fully anonymized.
 
-The content is curated as part of a professional DevOps / SRE portfolio.
+The content is curated as part of a professional DevOps portfolio.
 
 ---
 
